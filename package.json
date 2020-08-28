@@ -6,7 +6,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
+    "env-cmd": "^10.1.0",
     "prettier": "2.1.0"
   },
   "repository": {
@@ -30,6 +31,5 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "develop": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop"
+  }
 }
