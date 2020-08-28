@@ -38,7 +38,8 @@
     Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 1.  **Gatsby Own SASS Plugin**
-    search in their plugin 
+
+    search in their plugin. 
     gatsby-plugin-sass
 
 1.  **GraphyQL**
