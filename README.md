@@ -47,4 +47,13 @@
     To open graphql, browse 
     http://localhost:8000/_graphql
 
+1.  **Add Graphql Environment**
 
+    add .env.development
+    GATSBY_GRAPHQL_IDE=playground
+
+    add things package.json
+    -cross-env GATSBY_GRAPHQL_IDE=playground
+    to "develop" section
+    -then "npm install --save-dev cross-env"
+    -then "npm run develop"
