@@ -55,5 +55,7 @@
     add things package.json
     -cross-env GATSBY_GRAPHQL_IDE=playground
     to "develop" section
+
     -then "npm install --save-dev cross-env"
+
     -then "npm run develop"
